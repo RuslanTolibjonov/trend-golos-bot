@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "pip install aiogram asyncpg python-dotenv"
+  },
+  "deploy": {
+    "startCommand": "python main.py"
+  }
+}
